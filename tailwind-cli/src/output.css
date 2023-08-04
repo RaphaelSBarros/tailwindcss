@@ -434,13 +434,6 @@ video {
   display: none;
 }
 
-h1 {
-  font-size: 1.5rem;
-  line-height: 2rem;
-  --tw-bg-opacity: 1;
-  background-color: rgb(202 138 4 / var(--tw-bg-opacity));
-}
-
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -541,7 +534,22 @@ h1 {
   --tw-backdrop-sepia:  ;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+.card {
+  margin: 0.5rem;
+  border-radius: 0.375rem;
+  border-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgb(55 65 81 / var(--tw-border-opacity));
+  padding: 0.75rem;
+}
+
+.bg-green-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(187 247 208 / var(--tw-bg-opacity));
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
